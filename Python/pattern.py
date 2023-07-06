@@ -11,9 +11,12 @@ for i in range (5):
 #10 to 20
 for i in range (1,5):
     for j in range (1,i+1):
-        print(f"{j*10}",end="")
+        print(f"{j*10} ",end="")
         # k=k+10
-    print("")
+    if(i==4):
+        print("0")
+    else:
+        print("")
 
 
 for i in range (5):

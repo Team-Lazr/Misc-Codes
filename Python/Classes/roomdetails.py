@@ -1,11 +1,3 @@
-class myException:
-    class personlimit(BaseException):
-        Exception("Max 2 no. of extra people are allowed")
-    class roomtype(BaseException):
-        Exception("Invalid Type of Room")
-    class maxdays(BaseException):
-        Exception("Max limit of stay is exceeded")
-
 class Roomdetails:
     billId:int
     billId=0
@@ -83,5 +75,14 @@ class test():
         print(f"Customer Name: {obj.getCustomerName()}")
         print(f"No of Days of Stay: {obj.getnoOfDaysOfStay()}")
         print(f"Total Bill: {obj.calculateBill()}")
+
+class myException:
+    class personlimit(BaseException):
+        Exception("Max 2 no. of extra people are allowed")
+    class roomtype(BaseException):
+        Exception("Invalid Type of Room")
+    class maxdays(BaseException):
+        Exception("Max limit of stay is exceeded")
+
 
 test()

@@ -1,3 +1,3 @@
 count no of char in a string
 return occurence of any special char in a string
-check which of the two num given by user has the highest accuracy and return the offset between these two num
+check which of the two num given by user has the highest accuracy and return the offset between these two num   

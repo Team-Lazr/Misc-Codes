@@ -80,3 +80,11 @@
 
 ## Setup is Complete
 ---
+
+
+## Reference Links
+1. [GitLab - Repository mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/index.html)
+2. [Mirror gitlab to github over ssh](https://meesvandongen.nl/posts/mirror-gitlab-github)
+3. [Mirror SSH URL is seen as invalid](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/59032)
+4. [Mirroring to GitHub](https://open.win.ox.ac.uk/pages/open-science/community/Open-WIN-Community/docs/gitlab/6-1-mirroring-to-github/)
+5. [GitHub - About Remote Repositories](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls)

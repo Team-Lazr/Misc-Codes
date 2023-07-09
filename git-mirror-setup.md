@@ -39,42 +39,43 @@
 | Mirror Direction      	| Push           	|
 | Authentication Method 	| SSH Public Key 	|
 
-17. Click on Mirror Repository
+17. Click on Detect Host Keys
+18. Click on Mirror Repository
 
 ![GitLab-Mirror-Repo](./Images/gitlab-mirror-repo.png)
 
 
-18. Once the Mirror has Been Created, Click on the Copy SSH Key Button and save the SSH Key
+19. Once the Mirror has Been Created, Click on the Copy SSH Key Button and save the SSH Key
 
 ![GitLab-Mirror-Copy-Key](./Images/gitlab-mirror-copy-key.png)
 
 
 ## Enter SSH Key in GitHub
 
-19. Go to the GitHub Repo
-20. Click on Settings
-21. Click on Deploy Keys on the Sidebar
-22. Click on "Add deploy key"
-23. Under Title enter the following:
+20. Go to the GitHub Repo
+21. Click on Settings
+22. Click on Deploy Keys on the Sidebar
+23. Click on "Add deploy key"
+24. Under Title enter the following:
     ```text
     #Format
     <first name> @ <repo name> @ gitlab-mirror
     #Sample
     harsh@misc-codes@gitlab-mirror
     ```
-24. Under Key, paste the previously copied SSH Key (Step 18)
-25. Select Allow Write Access
-26. Click on Add Key
+25. Under Key, paste the previously copied SSH Key (Step 18)
+26. Select Allow Write Access
+27. Click on Add Key
 
 ![GitHub-add-SSH-Deploy-Key](./Images/github-add-ssh-deploy-key.png)
 
 
 ## Verify Mirroring Setup
 
-27. Go the the list of Mirrored Repositories in GitLab (Same Page as Step 18)
+28. Go the the list of Mirrored Repositories in GitLab (Same Page as Step 18)
 
-28. Click on Update Now Button and Wait 5 mins
-29. Refresh the page after 5 mins and make sure there are no errors
+29. Click on Update Now Button and Wait 5 mins
+30. Refresh the page after 5 mins and make sure there are no errors
 
 ![GitLab-Refresh-Mirror-Repo-Status](./Images/gitlab-refresh-mirror-repo-status.png)
 

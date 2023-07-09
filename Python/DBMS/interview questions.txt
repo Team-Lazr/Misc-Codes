@@ -1,0 +1,11 @@
+what is the sequence of clauses?
+where to use "where" clause and where should we use "joins"
+what is the difference b/w natural join and self join
+how to apply join on four tables with four unique columns
+what is the diff b/w clustered and non clustered index
+types of indexes
+why can we have a null value in a foriegn key
+difference b/w foriegn key and composite key
+what do you mean by relational mappings
+diff b/w stored procedures and callback functions
+various data types that are available

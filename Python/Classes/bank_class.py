@@ -1,12 +1,5 @@
 # A bank wants to conduct examination for recruitment. You need to develop an application for the banks to submit their detials by implementing the classes based on the class diagram and description given
 
-class InvalidNameException(Exception):
-    pass
-class InvalidJobProfileException(Exception):
-    pass
-class InvalidAgeException(Exception):
-    pass
-
 class bank():
     global valobj
     name=""
@@ -69,6 +62,12 @@ class validate(bank):
             print("Invalid Age")
             exit()
 
+class InvalidNameException(Exception):
+    pass
+class InvalidJobProfileException(Exception):
+    pass
+class InvalidAgeException(Exception):
+    pass
 
 if __name__ == "__main__":
     obj=bank()

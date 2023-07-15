@@ -5,11 +5,15 @@ class Point:
     yCoordinate:float
     
     def __init__(self, x ,y):
-        self.xCoordinate=x
-        self.yCoordinate=y
+        # self.xCoordinate=x
+        # self.yCoordinate=y
+        self.setxCoordinate(x)
+        self.setyCoordinate(y)
+
     
     def calculateDistancefromOrigin(self):
-        return (round(math.sqrt(((self.xCoordinate-0.0)**2)+((self.yCoordinate-0.0)**2)),2))
+        return (round(math.sqrt(((self.getxCoordinate()-0.0)**2) + ((self.getyCoordinate()-0.0)**2)),2))
+    
     
     def calculateDistancefromPoint(p1,p2):
         return round(math.sqrt(((p2.getxCoordinate() - p1.getxCoordinate())**2) + ((p2.getyCoordinate() - p1.getyCoordinate())**2)),2)
@@ -20,7 +24,7 @@ class Point:
     def setxCoordinate(self,x):
         self.xCoordinate=x
     def setyCoordinate(self,y):
-        self.xCoordinate=y
+        self.yCoordinate=y
 
 class test(Point):
     def __init__(self):

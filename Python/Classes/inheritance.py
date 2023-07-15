@@ -8,6 +8,8 @@ class tiger(animal):
 
 A=animal()
 A.test()
+print(type(A))
+print(isinstance(A,animal))
 
 T=tiger()
 T.test2()

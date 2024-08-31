@@ -3,4 +3,5 @@
 ## Index
 
 1. [Arduino Codes](./Arduino/)
-2. [Python Codes](./Python/)
+2. [CAD](./CAD/)
+3. [Python Codes](./Python/)

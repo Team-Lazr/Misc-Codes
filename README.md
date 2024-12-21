@@ -3,5 +3,16 @@
 ## Index
 
 1. [Arduino Codes](./Arduino/)
-2. [CAD](./CAD/)
-3. [Python Codes](./Python/)
+2. [Bash](./Bash/)
+3. [CAD](./CAD/)
+4. [Python Codes](./Python/) 
+
+
+## Commands
+
+1. To Run `setup_kali_env.sh`
+```bash
+curl -fsSL https://raw.githubusercontent.com/harshbuddhadev/Misc-Codes/refs/heads/main/Bash/setup_kali_env.sh -o /tmp/setup_vm.sh && sudo bash /tmp/setup_vm.sh && rm /tmp/setup_vm.sh
+
+
+```
